@@ -23,3 +23,10 @@ li{
     border-radius: 27px;
     margin: 10px;
 }
+button{
+    border: solid #f4c7ed;
+}
+a{
+    font-size: 18px;
+    font-weight: bold;
+}

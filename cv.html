@@ -8,9 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/X-icon" href="icono.png"/>
     <title>Trabajo final</title>
 </head>
 <body>
+    <script src="js/java.js"></script>
     <header>
         Curriculum Vitae
     </header>
@@ -37,8 +39,60 @@
         </footer>
     </div>
     <div class="borde">
-        Metodos de contacto
-        <ul>
+        <a>
+            Datos Personales
+            <button onclick="show_hide_datos()">
+                *
+            </button>
+        </a>
+        <ul id="datos">
+            <li>
+                Genero: Masculino
+            </li>
+            <li>
+                Fecha de nacimiento: 12 de Mayo de 1997
+            </li>
+            <li>
+                Numero telefónico: (272) 790-0888
+            </li>
+            <li>
+                Numero de celular: (311) 934-0811
+            </li>
+            <li>
+                Dirección: 4227 Valley View Ln
+            </li>
+        </ul>
+    </div>
+    <div class="borde">
+        <a>
+            Idiomas
+            <button onclick="show_hide_idiomas()">
+                *
+            </button>
+        </a>
+        <ul id="idiomas">
+            <li>
+                Ingles
+            </li>
+            <li>
+                Español
+            </li>
+            <li>
+                Italiano
+            </li>
+            <li>
+                Aleman
+            </li>
+        </ul>
+    </div>
+    <div class="borde" id="lista_uno">
+        <a>
+            Metodos de contacto
+            <button onclick="show_hide_contactos()">
+                *
+            </button>
+        </a>
+        <ul id="contactos">
             <li>
                 Email: chris.vasquez@gmail.com
             </li>
@@ -51,20 +105,45 @@
         </ul>
     </div>
     <div  class="borde">
-        Formación academica
-        <ul>
+        <a>
+            Formación academica
+            <button onclick="show_hide_formacion()">
+                *
+            </button>
+        </a>
+        <ul id="formacion">
             <li>
-
+                Grduado de "The Episcopal School of Dallas"
+            </li>
+            <li>
+                Recibido en "Culinary Institute Lenotre"
+            </li>
+            <li>
+                Curso de pasteleria en "Culinary Institute Lenotre."
             </li>
         </ul>
     </div>
     <div class="borde">
-        Datos de interes
-        <ul>
+        <a>
+            Datos de interes
+            <button onclick="show_hide_interes()">
+                *
+            </button>
+        </a>
+        <ul id="interes">
             <li>
-
+                Sabe cocinar un huevo de muchas maneras
+            </li>
+            <li>
+                Trabajo como jefe de cocina en Paris, Francia durante 3 años
+            </li>
+            <li>
+            </li>
+            <li>
             </li>
         </ul>
+        
     </div>
+    
 </body>
 </html>
