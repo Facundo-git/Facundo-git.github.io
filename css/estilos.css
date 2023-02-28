@@ -5,15 +5,23 @@
 }
 header{
     background-color: black;
-    color: white;
     font-size: 55px;
+    border: solid black 6px;
 }
 footer{
-    background-color: black;
+    background-color: #f4a4e7;
     text-align: end;
+    font-size: 7px;
+    border-style: outset;
+
 }
 p{
+    text-align: left;
+    margin-left: 15px;
     font-size: 20px;
+}
+img{
+    border: solid black;
 }
 li{
     text-align: left;
@@ -30,4 +38,8 @@ button{
 a{
     font-size: 18px;
     font-weight: bold;
+}
+div p a{
+    font-size: 20px;
+    text-decoration: underline;
 }
